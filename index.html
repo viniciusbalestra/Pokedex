@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="/source/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main>
+        <header>
+            <section class="menus">
+                <a href="./index.html"><img src="./source/assets/Icons/icons8-seta-esquerda-120.png" alt="seta-retorno" id="seta-retorno" ></a>
+                <a id="link_menu" href="./index.html"><img src="./source/assets/Icons/icons8-menu-48-2.png" alt="menu" id="menu"></a>
+            </section>
+        </header>
+        <section class="content">
+        <h1>Pokedex</h1>
+        <ol id="pokemonList" class="content__list"></ol>
+       </section>
+    </main>
+    <footer>
+        <div class="loadMoreClass">
+            <button id="loadMore" type="button">show more</button>
+        </div>
+    </footer>
+    <script src="./source/script/pokemon-model.js"></script>
+    <script src="./source/script/pokeApi.js"></script>
+    <script src="./source/script/engine.js"></script>
+</body>
+</html>
